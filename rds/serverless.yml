@@ -4,7 +4,6 @@ provider:
   name: aws
   stage: dev
   region: ca-central-1
-  profile: guru
   environment:
     AURORA_HOST: ${self:custom.AURORA.HOST}
     AURORA_PORT: ${self:custom.AURORA.PORT}

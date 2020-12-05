@@ -5,7 +5,6 @@ provider:
   runtime: nodejs12.x
   memorySize: 512
   timeout: 30
-  profile: guru
   region: ca-central-1
   vpc: # attaching lambda to vpc
     securityGroupIds: 
